@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    margin: auto;
+    background-color: rgb(255, 235, 205);  
+}
+
+.header {
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(129, 121, 98);
+}
+
+.header-line {
+    
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    color: #061d2c;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+.nav-item:hover {
+    background: rgb(167, 152, 132);;
+    cursor: pointer;
+    
+}
+.header-logo {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.phone-a {
+    font-size: 10px; 
+    position: absolute;
+    right: 5px; 
+    
+}
+.search {
+    position:absolute;
+    right: 310px;
+    width: 170px;
+}
+button {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 178px;
+    top: 2px;
+}
+
