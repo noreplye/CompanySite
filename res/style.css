@@ -1,6 +1,8 @@
 body {
+    display: grid;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: #000;
 }
 
 .container {
@@ -11,8 +13,8 @@ body {
 
 .header {
     height: 100vh;
-    background-size: cover;
-    background-color: rgb(0, 0, 0);
+   
+   
 }
 
 .header-line {
@@ -34,7 +36,8 @@ body {
 
 .nav-item:hover {
     background-color: rgb(255, 163, 43);
-    cursor: pointer;   
+    cursor: pointer;
+    border-radius: 10%;
 }
 
 .header-logo {
@@ -49,11 +52,7 @@ body {
     
 }
 
-.search {
-    position:absolute;
-    right: 310px;
-    width: 170px;
-}
+
 
 button {
     position: absolute;
@@ -68,9 +67,7 @@ button {
     font-size: 40px;   
 }
 
-.search-1 {
-    color: black;
-}
+
 
 .header-down {
     text-align: center;
@@ -103,7 +100,242 @@ button {
     background: #000;
     
 }
-@keyframes text {
+.slideshow-container {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.current_Slides{
+    text-align: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 11px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    transition:  0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    background-color: chocolate
+}
+.prev {
+    background-color: chocolate;
+}
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #f7941d;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, bot:hover{
+    background-color: aqua;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+    -moz-animation-name: fade;
+    -moz-animation-duration: 1.5s;
+}
+
+
+
+
+.slideshow-containerUS {
+    position: absolute;
+    top: 300px;
+    right: 50px;
+}
+.current_Slides2{
+    text-align: center;
+}
+
+.prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 11px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    transition:  0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    background-color: chocolate
+}
+.prev2 {
+    background-color: chocolate;
+}
+.dot2 {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #f7941d;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active2, bot:hover{
+    background-color: aqua;
+}
+.fade2{
+    animation-name: fade2;
+    animation-duration: 1.5s;
+    -moz-animation-name: fade2;
+    -moz-animation-duration: 1.5s;
+}
+.text-1-block{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 315px;
+    right: 50px;
+    color:rgb(254, 214, 161);
+    font-size: 25px;
+    animation: text1 2s 1;
+}
+
+.text-1-block2{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 315px;
+    left: 50px;
+    color:rgb(254, 214, 161);
+    font-size: 25px;
+    animation: text1 2s 1;
+}
+.text-1-block3{
+    position: absolute;
+    height: 500px;
+    top: 315px;
+    left: 50px;
+    color:rgb(254, 214, 161);
+    font-size: 25px;
+    animation: text1 2s 1;
+}
+.text-2-block {
+    position: absolute;
+    width: 1000px;
+    top: 650px;
+    right: 50px;
+    left: 50px;
+    margin-bottom: 50px;
+    color:rgb(254, 214, 161);
+    font-size: 25px;
+    animation: text1 2s 1;
+}
+.text-2-block3 {
+    position: absolute;
+    width: 1000px;
+    top: 450px;
+    right: 50px;
+    left: 50px;
+    margin-bottom: 50px;
+    color:rgb(254, 214, 161);
+    font-size: 25px;
+    animation: text1 2s 1;
+}
+
+.footer1 {
+    background-color: #321e07;
+    position: absolute;
+    bottom: -1300px;
+    padding-right: 100%;
+    padding-top: 100px;
+    
+}
+.footer2 {
+    background-color: #321e07;
+    position: absolute;
+    bottom: -1000px;
+    padding-right: 100%;
+    padding-top: 100px;
+    
+}
+.footer {
+    background-color: #321e07;
+    position: absolute;
+    bottom: -650px;
+    padding-right: 100%;
+    padding-top: 100px;
+    
+}
+.nav-call-2{
+    position: absolute;
+    color: aliceblue;
+    bottom: -6px;
+    font-size: 15px;
+    left: 10px;
+}
+.Copyright {
+    position: absolute;
+    color: aliceblue;
+    right: 10px;
+    bottom: -5px;
+}
+.e-mail {
+    position: absolute;
+    color: aliceblue;
+    font-size: 15px;
+    left: 10px;
+    bottom: 10px;
+}
+.e-mail2 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 15px;
+    left: 10px;
+    bottom: 27px;
+}
+.e-mail3 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 15px;
+    left: 10px;
+    bottom: 44px;
+}
+.e-mail-all {
+    position: absolute;
+    color: aliceblue;
+    font-size: 10px;
+    left: 10px;
+    bottom: 70px;
+    padding-right: 150px;
+    border-bottom: 2px solid;
+   
+}
+
+
+@keyframes text1 {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes fade {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes text { 
     0%{
         color: #000;
         margin-top: -40px;
@@ -117,3 +349,4 @@ button {
         margin-top: -40px;
     }
 }
+  
