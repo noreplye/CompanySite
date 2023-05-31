@@ -319,9 +319,19 @@ button {
     font-size: 10px;
     left: 10px;
     bottom: 70px;
-    padding-right: 150px;
-    border-bottom: 2px solid;
+    padding-right: 160px;
+    border-bottom: 1px solid;
    
+}
+.media {
+    position: absolute;
+    color: aliceblue;
+    font-size: 10px;
+    left: 370px;
+    bottom: 70px;
+    padding-right: 170px;
+    border-bottom: 1px solid;
+
 }
 
 
@@ -348,5 +358,51 @@ button {
         letter-spacing: 5px;
         margin-top: -40px;
     }
+}
+
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #403c3c;
+    border: 1px solid #323232;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #6e6e6e;
+    text-decoration: none;
+}
+.github{
+   
+    position: absolute;
+    bottom: 0px;
+    left: 370px;
+    
+}
+.youtube {
+    position: absolute;
+    bottom: 0px;
+    left: 530px;
+    
+}
+.vk{
+    position: absolute;
+    bottom: 0px;
+    left: 450px;
+    
+}
+.github a:hover {
+    background: #191919; 
+    color:#fff;
+}
+.youtube a:hover {
+    background: #c4302b; 
+    color: #fff;
+}
+.vk a:hover {
+    background: #5d84ae;
+    color: #fff;
 }
   
