@@ -153,9 +153,9 @@ button {
 
 
 
-.slideshow-container2 {
+.slideshow-containerUS {
     position: absolute;
-    top: 700px;
+    top: 300px;
     right: 50px;
 }
 .current_Slides2{
@@ -202,12 +202,32 @@ button {
     -moz-animation-name: fade2;
     -moz-animation-duration: 1.5s;
 }
-
 .text-1-block{
     position: absolute;
     width: 600px;
+    height: 500px;
     top: 315px;
     right: 50px;
+    color:rgb(254, 214, 161);
+    font-size: 25px;
+    animation: text1 2s 1;
+}
+
+.text-1-block2{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 315px;
+    left: 50px;
+    color:rgb(254, 214, 161);
+    font-size: 25px;
+    animation: text1 2s 1;
+}
+.text-1-block3{
+    position: absolute;
+    height: 500px;
+    top: 315px;
+    left: 50px;
     color:rgb(254, 214, 161);
     font-size: 25px;
     animation: text1 2s 1;
@@ -215,7 +235,18 @@ button {
 .text-2-block {
     position: absolute;
     width: 1000px;
-    top: 700px;
+    top: 650px;
+    right: 50px;
+    left: 50px;
+    margin-bottom: 50px;
+    color:rgb(254, 214, 161);
+    font-size: 25px;
+    animation: text1 2s 1;
+}
+.text-2-block3 {
+    position: absolute;
+    width: 1000px;
+    top: 450px;
     right: 50px;
     left: 50px;
     margin-bottom: 50px;
@@ -224,24 +255,75 @@ button {
     animation: text1 2s 1;
 }
 
+.footer1 {
+    background-color: #321e07;
+    position: absolute;
+    bottom: -1300px;
+    padding-right: 100%;
+    padding-top: 100px;
+    
+}
+.footer2 {
+    background-color: #321e07;
+    position: absolute;
+    bottom: -1000px;
+    padding-right: 100%;
+    padding-top: 100px;
+    
+}
 .footer {
     background-color: #321e07;
     position: absolute;
-    bottom: -450px;
+    bottom: -650px;
     padding-right: 100%;
     padding-top: 100px;
     
 }
 .nav-call-2{
     position: absolute;
-    bottom: 5px;
-    font-size: 10px;
+    color: aliceblue;
+    bottom: -6px;
+    font-size: 15px;
+    left: 10px;
 }
 .Copyright {
     position: absolute;
+    color: aliceblue;
     right: 10px;
     bottom: -5px;
 }
+.e-mail {
+    position: absolute;
+    color: aliceblue;
+    font-size: 15px;
+    left: 10px;
+    bottom: 10px;
+}
+.e-mail2 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 15px;
+    left: 10px;
+    bottom: 27px;
+}
+.e-mail3 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 15px;
+    left: 10px;
+    bottom: 44px;
+}
+.e-mail-all {
+    position: absolute;
+    color: aliceblue;
+    font-size: 10px;
+    left: 10px;
+    bottom: 70px;
+    padding-right: 150px;
+    border-bottom: 2px solid;
+   
+}
+
 
 @keyframes text1 {
     from{opacity: 0;}
