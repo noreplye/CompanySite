@@ -37,7 +37,7 @@ body {
 .nav-item:hover {
     background-color: rgb(255, 163, 43);
     cursor: pointer;
-    border-radius: 10%;
+    border-radius: 100%;
 }
 
 .header-logo {
@@ -404,5 +404,31 @@ button {
 .vk a:hover {
     background: #5d84ae;
     color: #fff;
+}
+.navigation {
+    display:flex;
+}
+    .navigation li {
+        width: 180px;
+        list-style: none;
+        position: relative;
+        background-color: #f7941d;
+    }
+.navigation a{
+    text-decoration:none;
+    display: block;
+    text-align: center;
+    padding:0 10px;
+    
+}
+.navigation ul{
+    position:absolute;
+    left:0;
+    top:100%;
+    display: none;
+    padding: 0;
+}
+.navigation li:hover ul{
+    display:block;
 }
   
