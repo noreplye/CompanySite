@@ -204,7 +204,8 @@ button {
     width: 600px;
     height: 500px;
     top: 315px;
-    right: 50px;
+    right: 4%;
+    left: 50%;
     color:rgb(254, 214, 161);
     font-size: 25px;
     animation: text1 2s 1;
@@ -271,7 +272,7 @@ button {
 .footer {
     background-color: #321e07;
     position: absolute;
-    bottom: -650px;
+    bottom: -100%;
     padding-right: 100%;
     padding-top: 100px;
     
@@ -279,7 +280,7 @@ button {
 .nav-call-2{
     position: absolute;
     color: aliceblue;
-    bottom: -6px;
+    bottom: 10px;
     font-size: 15px;
     left: 10px;
 }
@@ -287,35 +288,35 @@ button {
     position: absolute;
     color: aliceblue;
     right: 10px;
-    bottom: -5px;
+    bottom: 10px;
 }
 .e-mail {
     position: absolute;
     color: aliceblue;
     font-size: 15px;
     left: 10px;
-    bottom: 10px;
+    bottom: 25px;
 }
 .e-mail2 {
     position: absolute;
     color: aliceblue;
     font-size: 15px;
     left: 10px;
-    bottom: 27px;
+    bottom: 40px;
 }
 .e-mail3 {
     position: absolute;
     color: aliceblue;
     font-size: 15px;
     left: 10px;
-    bottom: 44px;
+    bottom: 55px;
 }
 .e-mail-all {
     position: absolute;
     color: aliceblue;
     font-size: 10px;
     left: 10px;
-    bottom: 70px;
+    bottom: 80px;
     padding-right: 160px;
     border-bottom: 1px solid;
    
@@ -325,8 +326,8 @@ button {
     color: aliceblue;
     font-size: 10px;
     left: 370px;
-    bottom: 70px;
-    padding-right: 170px;
+    bottom: 80px;
+    padding-right: 155px;
     border-bottom: 1px solid;
 
 }
@@ -367,26 +368,26 @@ button {
     box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
     border-radius: 6px;
     margin: 0 10px 10px 0;
-    padding: 6px;
+    padding: 1px;
     color: #6e6e6e;
     text-decoration: none;
 }
 .github{
    
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 370px;
     
 }
 .youtube {
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 530px;
     
 }
 .vk{
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 450px;
     
 }
@@ -406,14 +407,14 @@ button {
     display: flex;
     
 }
-    .navigation li {
+.navigation li {
 
         width: 180px;
         list-style: none;
         position: relative;
         background-color: #f7941d;
-
-    }
+        z-index: 1;
+}
 .navigation a{
     text-decoration:none;
     display: block;
@@ -436,7 +437,6 @@ button {
         padding: 0;
     }
 .navigation li:hover ul{
-
     display:block;
 }
   
