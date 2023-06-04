@@ -9,12 +9,14 @@ body {
     display: grid;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #000;
+    background-color: #000000;
+    background-image: url(/res/images/subtle-dots.png);
+
 }
 
 .container {
     margin: auto;
-    background-color: #f7941d;  
+    background-color:  #AC63B9;  
 }
 
 
@@ -77,7 +79,7 @@ button {
 .header-down span{
     text-transform: uppercase;
     display: block;
-    color:rgb(254, 214, 161);
+    color:#FFFFFF;
 }
 .text1 {  
     font-size: 20px;
@@ -94,14 +96,27 @@ button {
     letter-spacing: 5px;
     animation: text 3s 1;
     position: relative;
-    background: #000;
-    
+    background: #000; 
+    background-image: url(/res/images/subtle-dots.png);
 }
+
+.text2amin{
+    animation: text 3s 1;
+    position: relative;
+}
+
 .slideshow-container {
     position: absolute;
     top: 300px;
     left: 50px;
 }
+
+.slideshow-containerN2 {
+    position: absolute;
+    top: 800px;
+    left: 50px;
+}
+
 .current_Slides{
     text-align: center;
 }
@@ -113,7 +128,7 @@ button {
     width: auto;
     margin-top: -22px;
     padding: 11px;
-    color: aliceblue;
+    color: #000;
     font-weight: bold;
     font-size: 18px;
     transition:  0.6s ease;
@@ -122,17 +137,17 @@ button {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-    background-color: chocolate
+    background-color: #EDFF21;
 }
 .prev {
-    background-color: chocolate;
+    background-color: #EDFF21;
 }
 .dot {
     cursor: pointer;
     height: 13px;
     width: 13px;
     margin: 0 2px;
-    background-color: #f7941d;
+    background-color: #EDFF21;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -155,6 +170,8 @@ button {
     top: 300px;
     right: 50px;
 }
+
+
 .current_Slides2{
     text-align: center;
 }
@@ -175,17 +192,17 @@ button {
 .next2 {
     right: 0;
     border-radius: 3px 0 0 3px;
-    background-color: chocolate
+    background-color: #EDFF21;
 }
 .prev2 {
-    background-color: chocolate;
+    background-color: #EDFF21;
 }
 .dot2 {
     cursor: pointer;
     height: 13px;
     width: 13px;
     margin: 0 2px;
-    background-color: #f7941d;
+    background-color: #EDFF21;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -206,7 +223,7 @@ button {
     top: 315px;
     right: 4%;
     left: 50%;
-    color:rgb(254, 214, 161);
+    color: #925EEB;
     font-size: 25px;
     animation: text1 2s 1;
 }
@@ -217,7 +234,7 @@ button {
     height: 500px;
     top: 315px;
     left: 50px;
-    color:rgb(254, 214, 161);
+    color: #EDFF21;
     font-size: 25px;
     animation: text1 2s 1;
 }
@@ -226,7 +243,7 @@ button {
     height: 500px;
     top: 315px;
     left: 50px;
-    color:rgb(254, 214, 161);
+    color: #EDFF21;
     font-size: 25px;
     animation: text1 2s 1;
 }
@@ -237,7 +254,7 @@ button {
     right: 50px;
     left: 50px;
     margin-bottom: 50px;
-    color:rgb(254, 214, 161);
+    color: #EDFF21;
     font-size: 25px;
     animation: text1 2s 1;
 }
@@ -248,13 +265,13 @@ button {
     right: 50px;
     left: 50px;
     margin-bottom: 50px;
-    color:rgb(254, 214, 161);
+    color: #EDFF21;
     font-size: 25px;
     animation: text1 2s 1;
 }
 
 .footer1 {
-    background-color: #321e07;
+    background-color: #7851A9;
     position: absolute;
     bottom: -1300px;
     padding-right: 100%;
@@ -262,7 +279,7 @@ button {
     
 }
 .footer2 {
-    background-color: #321e07;
+    background-color: #7851A9;
     position: absolute;
     bottom: -1000px;
     padding-right: 100%;
@@ -270,7 +287,7 @@ button {
     
 }
 .footer {
-    background-color: #321e07;
+    background-color: #7851A9;
     position: absolute;
     bottom: -100%;
     padding-right: 100%;
@@ -412,7 +429,7 @@ button {
         width: 180px;
         list-style: none;
         position: relative;
-        background-color: #f7941d;
+        background-color: 	#AC63B9;
         z-index: 1;
 }
 .navigation a{
@@ -426,7 +443,7 @@ button {
     
 }
     .navigation a:hover {
-        background-color: rgb(255, 163, 43);
+        background-color: #fff9f1;
         
     }
     .navigation ul {
@@ -440,3 +457,107 @@ button {
     display:block;
 }
   
+.map-container {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+
+.text-4-block {
+    position: absolute;
+    width: 1000px;
+    top: 850px;
+    right: 50px;
+    left: 50px;
+    margin-bottom: 50px;
+    color:#ffffff;
+    font-size: 25px;
+    animation: text1 2s 1;
+}
+
+.man1{
+    position: left;
+}
+.man2{
+    position: center;
+}
+.man3{
+    position: right;
+}
+.manager-container {
+    margin-bottom: 50px;
+    width: 500px;
+    top: 1400px
+}
+
+.manager-body{
+    position: right;
+    top:1400px;
+    width: 300;
+}
+
+.badge-name{
+    position: right;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+img.badge-image {
+    float: left;
+    margin-right: 50px;
+}
+
+
+.text-1{
+    position: absolute;
+    width: 750px;
+    top: 400px;
+    left: 45%;
+    margin-bottom: 50px;
+    color:#EDFF21;
+    font-size: 20px;
+    animation: text1 2s 1;
+}
+.img-raz{
+    width: 500px;
+    height: 350px;
+}
+
+.img-works{
+    width: 1100px;
+    height: 700px;
+}
+
+.slideshow-works1{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+
+   
+}
+
+.category1{
+    position: absolute;
+    left: 15%;
+    top: 800px;
+    font-size: 30px;
+}
+.category2{
+    position: absolute;
+    left: 45%;
+    top: 800px;
+    font-size: 30px;
+}
+.category3{
+    position: absolute;
+    left: 75%;
+    top: 800px;
+    font-size: 30px;
+}
+.team{
+    top: 300px;
+    left: 150px;
+    position: absolute;
+}
