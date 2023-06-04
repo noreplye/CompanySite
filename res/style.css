@@ -424,14 +424,14 @@ button {
     display: flex;
     
 }
-.navigation li {
-
+    .navigation li {
         width: 180px;
         list-style: none;
         position: relative;
-        background-color: 	#AC63B9;
-        z-index: 1;
-}
+        background-color: #f7941d;
+        z-index: 10000;
+    }
+
 .navigation a{
     text-decoration:none;
     display: block;
