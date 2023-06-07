@@ -34,14 +34,15 @@ body {
 
 .nav-item {
     color: #061d2c;
-    
 }
 
 
 
+
 .header-logo {
+   
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
 .phone-a {
@@ -51,15 +52,6 @@ body {
     
 }
 
-
-
-button {
-    position: absolute;
-    width: 21px;
-    height: 21px;
-    left: 178px;
-    top: 2px;
-}
 
 .header-title {
     text-align: center;
@@ -85,10 +77,7 @@ button {
     font-size: 20px;
     font-weight: 700px;
     letter-spacing: 5px; 
-    margin-bottom: 10px;
-    
-    
-    
+    margin-bottom: 10px;   
 }
 .text2 {
     font-size: 40px;
@@ -139,7 +128,31 @@ button {
     border-radius: 3px 0 0 3px;
     background-color: #EDFF21;
 }
+.prev1, .next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 21px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    transition:  0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
 .prev {
+    background-color: #EDFF21;
+}
+
+.next1 {
+    right: 0;
+    font-size: 30px;
+    border-radius: 3px 0 0 3px;
+    background-color: #EDFF21;
+}
+.prev1 {
+    font-size: 30px;
     background-color: #EDFF21;
 }
 .dot {
@@ -169,11 +182,6 @@ button {
     position: absolute;
     top: 300px;
     right: 50px;
-}
-
-
-.current_Slides2{
-    text-align: center;
 }
 
 .prev2, .next2 {
@@ -258,6 +266,17 @@ button {
     font-size: 25px;
     animation: text1 2s 1;
 }
+.text-2-block12 {
+    position: absolute;
+    width: 1000px;
+    top: 650px;
+    right: 50px;
+    left: 50px;
+    margin-bottom: 50px;
+    color: #EDFF21;
+    font-size: 25px;
+    animation: text1 2s 1;
+}
 .text-2-block3 {
     position: absolute;
     width: 1000px;
@@ -278,6 +297,14 @@ button {
     padding-top: 100px;
     
 }
+.footer05 {
+    background-color: #7851A9;
+    position: absolute;
+    bottom: -1300px;
+    padding-right: 100%;
+    padding-top: 100px;
+    
+}
 .footer2 {
     background-color: #7851A9;
     position: absolute;
@@ -289,11 +316,35 @@ button {
 .footer {
     background-color: #7851A9;
     position: absolute;
+    bottom: -500px;
+    padding-right: 100%;
+    padding-top: 100px;
+    
+}
+.footer10 {
+    background-color: #7851A9;
+    position: absolute;
+    bottom: -100%;
+    padding-right: 100%;
+    padding-top: 100px; 
+}
+.footer12 {
+    background-color: #7851A9;
+    position: absolute;
     bottom: -100%;
     padding-right: 100%;
     padding-top: 100px;
     
 }
+.footer19 {
+    background-color: #7851A9;
+    position: absolute;
+    bottom: -1300px;
+    padding-right: 100%;
+    padding-top: 100px;
+    
+}
+
 .nav-call-2{
     position: absolute;
     color: aliceblue;
@@ -443,8 +494,8 @@ button {
     
 }
     .navigation a:hover {
-        background-color: #fff9f1;
-        
+        background-color: #c181cd;
+   
     }
     .navigation ul {
         position: absolute;
@@ -543,21 +594,217 @@ img.badge-image {
     left: 15%;
     top: 800px;
     font-size: 30px;
+    text-decoration: none;
+}
+.category1:hover{
+    text-decoration: underline;
 }
 .category2{
     position: absolute;
     left: 45%;
     top: 800px;
     font-size: 30px;
+    text-decoration: none;
+}
+.category2:hover{
+    text-decoration: underline;
 }
 .category3{
     position: absolute;
     left: 75%;
     top: 800px;
     font-size: 30px;
+    text-decoration: none;
+}
+.category3:hover{
+    text-decoration: underline;
 }
 .team{
     top: 300px;
     left: 150px;
     position: absolute;
 }
+.burger-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+    cursor: pointer;
+    display: none; 
+}
+  
+.burger-icon span {
+
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #060606;
+    margin: 5px 0;
+    transition: ease-in-out 0.3s;
+    border-radius: 10%;
+}
+  
+#burger-menu {
+  display: none;
+}
+  
+#burger-menu:checked ~ .navigation {
+    display: block;
+}
+  
+@media (max-width: 621px) {
+    .header-logo {
+        
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .nav-call{
+        display: none;
+    }
+    .navigation ul {
+        position: absolute;
+        top: -10px;
+        left: 180px;
+        display: none;
+        padding: 0;
+    }
+    .navigation {
+        display: none;
+        position: fixed;
+        top: 70px;
+        right: 10px;
+        width: 100%;
+        z-index: 1000;
+        padding: 20px;
+
+    }
+    
+    .navigation li {
+        
+        margin: 10px 0;
+    }
+    
+    .navigation a {
+        color: #333;
+        font-size: 18px;
+    }
+    .burger-icon {
+        display:block;
+    }
+    
+    .burger-icon span {
+        background:#62146f;
+        display: block;
+        border: 2px solid; 
+    }
+    .text-1-block{
+        left: 50px;
+        top: 650px;
+        width: 90%;
+    }
+    .text-2-block{
+        top: 1000px;
+        width: 90%;
+    }
+    .footer{
+        bottom: -900px;
+    }
+    .slideshow-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+    .Copyright {
+        font-size: 10px;
+        right: 10px;
+        bottom: 5px;
+    }
+    .text-1-block2{
+        width: 510px;
+        height: 250px;
+        top: 600px;
+        left: 50px;
+        right: 50px;   
+    }
+    .slideshow-containerUS {
+        position: absolute;
+        top: 300px;
+        left: 50px;
+    }
+    .footer2{
+        bottom: -1400px;
+    }
+    .map-container iframe{
+        height:300px;
+        width:500px;
+    }
+    .text-4-block{
+        top: 1100px;
+    }
+    .footer10{
+        top: 1700px;
+    }
+    .footer12{
+        bottom: -400px;
+    }
+    .text-1{
+        left: 50px;
+        top: 700px;
+        width: 500px;
+    }
+    .text-1-block3{
+        width: 510px;
+    }
+    .text-2-block12{
+        top: 750px;
+    }
+    .category1{
+        top: 815px;
+        left: 50px;
+    }
+    .category2{
+        top: 815px;
+        left: 240px;
+    }
+    .category3{
+        top: 815px;
+        left: 420px;
+    }
+    .footer19 {
+        bottom: -350px;  
+    }
+    .text-2-block3{
+        width: 510px;
+    }
+    .slideshow-works1{
+        zoom: .5;
+        left: 50px;
+        top: 600px;
+    }
+    .team{
+        zoom: 0.5;
+        top: 600px;
+        left: 50px
+    }
+    .container {
+        
+        background-color:  #AC63B9;
+        height: 90px;
+    }
+    .header-logo{
+        position: absolute;
+        right: 250px;
+        top: 0px;
+    }
+    .footer05 {
+        background-color: #7851A9;
+        position: absolute;
+        bottom: -400px;
+        padding-right: 100%;
+        padding-top: 100px;
+        
+    }
+    
+  }
+
+
